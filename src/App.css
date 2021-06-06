@@ -1,0 +1,234 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  border:none
+}
+.title h2{
+  text-align: center;
+  margin: 1rem 0;
+  color: burlywood;
+}
+.file-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.file{
+  border-radius: 5px;
+  background-color: burlywood;
+
+}
+.progress-bar{
+  height: 5px;
+  margin-top: 1rem;
+  background-color: red;
+}
+.image-show-comp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 3px soild rgb(163, 27, 163);
+  margin: 1rem;
+}
+.image-wrapper{
+  width: 28%;
+  height: 300px;
+  margin:1rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+}
+.image-wrapper img{
+  width: 100%;
+  height:100%;
+  border-radius: 2px;
+}
+.modal-backdrop{
+  position: fixed;
+  background-color: rgb(26, 24, 24);
+  opacity: 0.95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+
+}
+.modal-backdrop i{
+  font-size: 10rem;
+  color: rgb(80, 174, 211);
+  margin: 0 2rem;
+  cursor: pointer;
+
+}
+.image-container{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(80, 174, 211);
+}
+
+.image-container img{
+  height: 92%;
+}
+.functionality-container{
+  background-color: rgb(21, 7, 39);
+
+}
+.functionality-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.functionality-icons i{
+  color: rgb(80, 174, 211);
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.share-backdrop{
+  background-color: rgb(26, 24, 24);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 104;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.share-wrapper{
+  background-color: yellow;
+  opacity: 0.9;
+  border-radius: 5px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.share-wrapper i{
+  font-size: 2rem;
+  align-self: flex-end;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.icon-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin:1rem 0;
+}
+.copy-paste-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.copy-paste-wrapper h3{
+  margin: 0.5rem 0;
+
+}
+.copy-paste-wrapper i{
+  margin: 0;
+  align-self: center;
+  cursor: pointer;
+}
+
+.info-container{
+  background-color: rgb(241, 241, 234);
+  width: 180px;
+  height: 50px;
+  position: fixed;
+  z-index: 107;
+  color: rgb(14, 12, 12);
+  left:40%;
+  border-radius: 10px;
+  bottom: 6rem;
+  font-size: 0.8rem;
+}
+.info-container p:nth-child(1){
+  margin: 5px 8px;
+}
+.info-container p:nth-child(2){
+  color: rgb(54, 122, 179);
+  margin: 5px 8px;
+}
+
+.login-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:2rem 0;
+  
+}
+.login-provider-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(75, 75, 233);
+  color: honeydew;
+  width: 250px;
+  cursor: pointer;
+
+}
+.login-provider-button img{
+  background-color: white;
+}
+.login-provider-button span{
+  font-size: 1.15rem;
+  margin-right: 0.5rem;
+  display: block;
+}
+.logout-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logout-button{
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: honeydew;
+  border-radius: 5px;
+  margin: 2rem 2rem;
+  cursor: pointer;
+}
+
+
+.profile-wrapper{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+.profile-wrapper h3{
+  color:rgb(23, 156, 156);
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+.profile-main-items{
+  margin-left: 1rem;
+}
+.profile-wrapper img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 1rem 0;
+}
+.profile-wrapper p{
+  font-size: 0.8rem;
+}
+.profile-main-items p:nth-child(3){
+  color:rgb(23, 156, 156);
+}
