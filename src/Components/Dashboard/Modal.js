@@ -63,7 +63,10 @@ function Modal(props) {
             <i
               className="fa fa-share-alt"
               aria-hidden="true"
-              onClick={() => props.setClicked(true)}
+              onClick={() => {
+                props.setClicked(true);
+                props.setInfoClicked(null);
+              }}
             >
               {" "}
             </i>
@@ -79,10 +82,10 @@ function Modal(props) {
                   .doc(props.Id)
                   .delete()
                   .then(() => {
-                    console.log("Document successfully deleted!");
+                   alert("Document deleted successfully!")
                   })
                   .catch((error) => {
-                    console.error("Error removing document: ", error);
+                    alert("error! Try again");
                   });
                 
               }}
