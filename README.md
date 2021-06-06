@@ -2,12 +2,15 @@
 
 # Screenshot 1
 
-<a href="https://ibb.co/zHK5XkY"><img src="https://i.ibb.co/zHK5XkY/Screenshot-119.png" alt="Screenshot-home" ></a>
+![Screenshot (119)](https://user-images.githubusercontent.com/58553401/120925538-9d679d80-c6f6-11eb-8e7d-b3051b57850f.png)
+
 
 # Screenshot 2
 
-<a href="https://ibb.co/kqXF370"><img src="https://i.ibb.co/kqXF370/Screenshot-120.png" alt="Screenshot-click" ></a>
+![Screenshot (120)](https://user-images.githubusercontent.com/58553401/120925551-ab1d2300-c6f6-11eb-9cd0-41473ea8ee25.png)
+
 
 # Screenshot 3
 
-<a href="https://ibb.co/BcqcKP2"><img src="https://i.ibb.co/BcqcKP2/Screenshot-121.png" alt="Screenshot-share" ></a>
+![Screenshot (121)](https://user-images.githubusercontent.com/58553401/120925557-b40df480-c6f6-11eb-8b9f-a307a8282426.png)
+
